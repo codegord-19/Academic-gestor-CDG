@@ -1,0 +1,167 @@
+.logincont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    width: 300px;
+    height: 420px;
+    position: relative;
+    background-color: hsla(0, 0%, 100%, 1);
+    background-image: radial-gradient(
+      at 88% 40%,
+      hsla(0, 0%, 100%, 1) 0px,
+      transparent 85%
+    ),
+    radial-gradient(at 49% 30%, hsla(240, 5%, 95%, 1) 0px, transparent 85%),
+    radial-gradient(at 14% 26%, hsla(240, 5%, 95%, 1) 0px, transparent 85%),
+    radial-gradient(at 0% 64%, var(--c4) 0px, transparent 85%),
+    radial-gradient(at 41% 94%, var(--c3) 0px, transparent 85%),
+    radial-gradient(at 100% 99%, var(--c10) 0px, transparent 85%);
+    box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+    border-radius: 10px;
+    border: 1px solid var(--c8);
+}
+
+.logincont button
+{
+    margin: 0;
+}
+
+.logincont .iniform
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+.logincont .changebutton
+{
+    background-color: transparent ;
+    border: none;
+    color: var(--c3);
+    text-decoration: underline;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.logincont .iniform label input
+{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logincont .iniform label input:focus
+{
+    border: 1px solid var(--c3);
+    outline: none;
+    
+}
+
+
+.logincont .iniform button
+{
+    width: 50%;
+    height: 40px;
+    border: 1px solid var(--c8);
+    border-bottom: 6px solid var(--c8);
+    background: var(--c2);
+    cursor: pointer;
+    border-radius: 8px;
+    color: var(--c8);
+    font-size: 16px;
+}
+
+.logincont .iniform button:hover
+{
+    background: var(--c10);
+}
+
+
+.logincont .regform
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+.logincont .regform label input
+{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logincont .regform label input:focus
+{
+    border: 1px solid var(--c3);
+    outline: none;
+    
+}
+
+.logincont .regform button
+{
+    width: 50%;
+    height: 40px;
+    border: 1px solid var(--c8);
+    border-bottom: 6px solid var(--c8);
+    background: var(--c2);
+    cursor: pointer;
+    border-radius: 8px;
+    color: var(--c8);
+    font-size: 16px;
+}
+
+.logincont .regform button:hover
+{
+    background: var(--c10);
+}
+
+
+.logincont .logintitle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px
+    ;
+}
+
+.logincont .logintitle h2
+{
+    font-size: 16px;
+    background-color: var(--c8);
+    color: var(--c2);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+   
+}
+
+.logincont .logintitle img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
+}

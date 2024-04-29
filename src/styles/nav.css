@@ -1,0 +1,76 @@
+.Navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, var(--c8), var(--c3));
+    box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+    border: 1px solid var(--c2);
+   
+}
+
+.Navbar .logo
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    pointer-events: none;
+    
+}
+
+.Navbar .logo img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.Navbar .boxnav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    width: 80%;
+    gap: 24px;
+    margin: 0;
+    background-color: var(--c2);
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+    border: 1 px solid #ccc;
+   
+    
+}
+
+.Navbar .boxnav button
+{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c2);
+    color: var(--c3);
+    border: 1px solid var(--c8);
+    border-bottom: 4px solid var(--c8);
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 8px;
+
+}
+
+.Navbar .boxnav button:hover
+{
+    background-color:  var(--c10);
+    color: black;
+    transform: scale(1.1);
+    font-style: italic;
+}

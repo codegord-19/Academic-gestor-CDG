@@ -1,0 +1,30 @@
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  background: var(--c1);
+  min-height: 100vh;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#root
+{
+  --c1:#f4f4f9;
+  --c2:#fff;
+  --c3:#007BFF; /* Azul */;
+  --c4:#39C3FA;
+  --c5:#3986FA;
+  --c6:#FAF839;
+  --c7:#5D63A5;
+  --c8:#20298B;
+  --c9:#FA3A39;
+  --c10:#39FA71;
+}
+

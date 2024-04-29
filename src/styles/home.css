@@ -1,0 +1,137 @@
+.homec
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    gap: 10px;
+}
+
+
+.homec .hometitle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    gap: 8px;
+    color: var(--c2);
+    font-size: 16px;
+    top: 0;
+    background-image: linear-gradient(to bottom right, var(--c8), var(--c3));
+    box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+    border: 1px solid var(--c2);
+    border-bottom-left-radius: 20px;
+}
+
+
+.homec .homecontent
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    gap: 100px;
+    pointer-events: none;
+}
+
+.homec .homecontent .homedesc
+{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+.homec .homecontent .homedesc h2
+{
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: var(--c8);
+    width: 100%;
+    margin: 0;
+}
+
+.homec .homecontent .homedesc img
+{
+    width: 90%;
+    border-radius: 10px;
+   
+}
+
+.homec .homecontent .homedesc h2 i
+{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: var(--10);
+}
+
+
+.homec .homecontent .homedesc p
+{
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: justify;
+
+}
+
+.homec .homecontent .card
+{
+    width: 30%;
+    height: 70%;;
+    background-color: var(--c2);
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+    pointer-events: none;
+    
+}
+
+.homec .homecontent .card .Hdesc
+{
+    width: 80%;
+    height: 20%;
+    border: 1px solid var(--c8);
+    border-bottom: 8px solid var(--c8);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.homec .homecontent .card .Hdesc .text
+{
+    overflow: hidden;
+}
+
+.homec .homecontent .card .Hdesc .text h2
+{
+    font-size: 32px;
+}
+
+.homec .homecontent .card .Hdesc .text p
+{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.homec .homecontent .card .Hdesc i
+{
+    font-size: 48px;
+    color: var(--c10);
+}

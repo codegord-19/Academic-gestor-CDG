@@ -1,0 +1,18 @@
+/* Estilos para el contenedor de Particles */
+#particles-container {
+    position: relative;
+    width: 10%;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    overflow: hidden;
+    background-color: yellowgreen;
+  }
+  
+  /* Estilos para asegurar que Particles se ajuste al contenedor */
+  #tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
